@@ -1,16 +1,25 @@
-# React + Vite
+# User Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **User Management System** built with **React** on the frontend and **Node.js + Express** on the backend.  
+The application demonstrates **server-side rendering**, fetching, adding, and dynamically displaying users.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Display a list of existing users from the server.
+- Add new users via a form and update the UI instantly.
+- Server-side rendering for initial user data fetch.
+- RESTful API endpoints for handling user data.
+- Easy to extend for editing or deleting users.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, useState, useEffect
+- **Backend:** Node.js, Express.js
+- **Server Communication:** REST API (GET and POST)
+- **Other:** CORS, JSON handling
+
+---
